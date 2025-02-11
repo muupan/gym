@@ -44,7 +44,7 @@ setup(
         "numpy>=1.18.0",
         "cloudpickle>=1.2.0,<1.7.0",
     ],
-    extras_require=extras,
+    # extras_require=extras,
     package_data={
         "gym": [
             "envs/mujoco/assets/*.xml",
@@ -57,7 +57,7 @@ setup(
             "envs/robotics/assets/textures/*.png",
         ]
     },
-    tests_require=["pytest", "mock"],
+    # tests_require=["pytest", "mock"],
     python_requires=">=3.6",
     classifiers=[
         "Programming Language :: Python :: 3",
